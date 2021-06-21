@@ -1,0 +1,114 @@
+#logo {
+    height: auto;
+    width: 3%;
+    margin-right: 5px;
+    color: blue;
+}
+
+#login {
+    color: whitesmoke;
+}
+
+#sign {
+    color: whitesmoke;
+}
+
+#c2 {
+    height: 265px;
+}
+
+.container {
+    color: grey;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    width: 35px;
+    height: 170px;
+    position: fixed;
+    position: -webkit-sticky;
+    justify-content: space-between;
+    background-color: rgb(209, 203, 203);
+    border-radius: 8px;
+    fill-opacity: 0.1;
+}
+
+.flex-container2 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px;
+    height: 30px;
+    width: 160px;
+   
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.flex-container3 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px;
+    height: 30px;
+    width: 160px;
+    
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.flex-container {
+    margin: 2px;
+    padding: 2px;
+}
+
+.card {
+    display: flex;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-flex {
+    display: flex;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.display-4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+   
+.container h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.skill-idiots {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.goal {
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.flex-container4 {
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+}
