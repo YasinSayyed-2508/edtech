@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+    <title>SK!LL !D!OTS</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">SK!LL !D!OTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Ebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">About Us</a>
+                    </li>
+
+                </ul>
+
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    Connect Us
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                            text, images,
+                            lists, etc.
+                        </div>
+                        <div class="mx-2">
+                            <button class="btn btn-secondary" id="login" data-bs-toggle="modal"
+                                data-bs-target="#loginModal">Login</button>
+
+                            </script>
+                            <button class="btn btn-secondary" id="sign" data-bs-toggle="modal"
+                                data-bs-target="#signupModal">Sign
+                                Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                </a>
+                >
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Welcome to SK!LL !D!OTS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-danger" id="myBtn">Submit</button>
+                        <script>
+                            document.getElementById("myBtn").addEventListener("click", myFunction);
+
+                            function myFunction() {
+                                alert("Successfully Login!");
+                            }
+                        </script>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Welcome to
+                        <!--Sign Up Modal -->
+                        <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="signupModalLabel">Get An SK!LL !D!OTS Account</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with
+                                                    anyone else.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Confirm
+                                                    Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+
+                                            <button type="submit" class="btn btn-danger" id="myBtn1">Submit</button>
+                                            <script>
+                                                document.getElementById("myBtn1").addEventListener("click", myFunction1);
+
+                                                function myFunction1() {
+                                                    alert("Successfully Sign Up!");
+                                                }
+                                            </script>
+                                        </form>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div><a href="https://www.facebook.com/profile.php?id=100052336418268" target="_blank">
+                <img src="facebook-square-color.svg" alt="HTML tutorial" style="width:25px;height:25px;">
+            </a></div>
+        <div><a href="https://t.me/joinchat/N7SxQeVbgBxjY2I1" target="_blank">
+                <img src="telegram.svg" alt="HTML tutorial" style="width:25px;height:25px;">
+            </a></div>
+        <div><a href="sskillidiots01@gmail.com">
+                <img src="gmail.svg" alt="HTML tutorial" style="width:25px;height:25px;">
+            </a></div>
+        <div><a href="https://instagram.com/we_skillidiots?utm_medium=copy_link" target="_blank">
+                <img src="instagram-square-color.svg" alt="HTML tutorial" style="width:25px;height:25px;">
+            </a></div>
+        <div><a href="https://www.linkedin.com/company/skill-idiots.com" target="_blank">
+                <img src="linkedin-square-color.svg" alt="HTML tutorial" style="width:25px;height:25px;">
+            </a></div>
+
+    </div>
+
+    <!-- Courses -->
+    <div class="card text-center" style="
+    margin-left: 50px;
+    margin-right: 50PX;
+    margin-top: 10px;
+    background-color: rgb(202, 202, 202);
+    ">
+
+        <div class="card-body" style="margin-top: 1px;">
+            <h5 class="card-title">"INDIA'S MOST AFFORDABLE COUSRES ARE HERE" </h5>
+            <p class="card-text">"WE KNOW THE VALUE OF BOOKS"</p>
+            <a href="https://surveyheart.com/form/60ae786c12bddc3ceeb1346c" target="_blank"
+                class="btn btn-primary">Click here To
+                Enroll</a>
+        </div>
+    </div>
+
+    <class class="container-flex">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-4">
+                <h2 class="featurette-heading">SOLIWORKS BASICS<span class="text-muted"></span>
+                </h2>
+                <p class="lead">Solid works: High-end Mechanical CAD software specially used for 3D Modeling and
+                    Assembly purposes. It is one of the most widely used CAD software in the world for 3D Modeling
+                    because of its great and flexible capabilities. It is developed by Dassault Systemes
+                </p>
+                <a href="https://drive.google.com/uc?export=download&id=1U9Xsi7nqs_VN3oNgxPuA-uUDaLS86qFg">Download
+                    Course curriculum</a>
+            </div>
+            <div class="col-md-5">
+                <img src="img/soliworks.jpeg" alt="" class="img-fluid" bd-placeholder-img bd-placeholder-img-lg
+                    featurette-image img-fluid mx-auto" width="500">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+
+
+            </div>
+        </div>
+
+    </class>
+    <hr class="featurette-divider">
+    <class class="container-flex">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-4">
+                <h2 class="featurette-heading">INTERNAL SECURITY<span class="text-muted"></span>
+                </h2>
+                <p class="lead">Internal security is the act of keeping peace within the borders of a sovereign state or
+                    other self-governing territories, generally by upholding the national law and defending against
+                    internal security threats. Responsibility for internal security may range from police to
+                    paramilitary forces, and in exceptional circumstances, the military itself.
+                </p>
+                <a href="https://drive.google.com/uc?export=download&id=1lPDx0uETqWk755sCetgD_NMsgxHBmhSH">Download
+                    Course curriculum</a>
+            </div>
+            <div class="col-md-5">
+                <img src="img/sm.jpeg" alt="" class="img-fluid" bd-placeholder-img bd-placeholder-img-lg
+                    featurette-image img-fluid mx-auto" width="500">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+
+
+            </div>
+        </div>
+        <hr class="featurette-divider">
+    </class>
+    <hr class="featurette-divider " margin-bottom:-41px;">
+    <class class="container-flex">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-4">
+                <h2 class="featurette-heading">DIGITAL MARKETING<span class="text-muted"></span>
+                </h2>
+                <p class="lead">Digital marketing is the component of marketing that utilizes internet and online based
+                    digital technologies such as desktop computers, mobile phones and other digital media and platforms
+                    to promote products and services.digital marketing campaigns have become prevalent, employing
+                    combinations of search engine optimization (SEO), search engine marketing (SEM), content marketing,
+                    influencer marketing, content automation, campaign marketing.
+                </p>
+                <a href="https://drive.google.com/uc?export=download&id=1f_G8S3BcR_Vhmfzsp8M1-pQ1nsxlBHr2">Download
+                    Course curriculum</a>
+            </div>
+            <div class="col-md-5">
+                <img src="img/download.png" alt="" class="img-fluid" bd-placeholder-img bd-placeholder-img-lg
+                    featurette-image img-fluid mx-auto" width="500">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+
+
+            </div>
+        </div>
+        <hr class="featurette-divider">
+    </class>
+    <hr class="featurette-divider " margin-bottom:-41px;">
+
+    <!-- Footer -->
+    <footer class="container" style="margin-bottom: 10px;">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 Sk!ll !d!iots, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    </class>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
